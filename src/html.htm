@@ -1,0 +1,59 @@
+﻿<html>
+	<head>
+		<title>Canvas</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+		<script type = "text/javascript" src = "js/load.js"></script>
+		<script type="text/javascript" src="js/requestAnimationFrame.js"></script>
+		<script type="text/javascript" src="js/sprites.js"></script>
+		<script type="text/javascript" src="js/path.js"></script>
+		<script type="text/javascript" src="js/enemies.js"></script>
+		<script type="text/javascript" src="js/bullet.js"></script>
+		<script type="text/javascript" src="js/battery.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</head>
+	
+	<body>
+		<div id = "border">
+			<canvas id = "canvas">您的浏览器不支持canvas</canvas>
+			<p>生命:<span id = "life"></span></p>
+			<p>金钱:<span id = "money"></span></p>
+			<ul id = "shop">
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+				<li><img src = "image/null.png"/></li>
+			</ul>
+			<button id = "go">
+				GO<br/>
+				第<span>1</span>波<br/>
+				共<span></span>波
+			</button>
+			<div class = "clear"></div>
+			<ul id = "bChange">
+				<li>
+					等级:
+					<br/>
+					<div id = "level"></div>
+				</li>
+				<li>
+					售价:
+					<br/>
+					<div id = "sell"></div>
+				</li>
+				<li>
+					升级:
+					<br/>
+					<div id = "upgrade"></div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

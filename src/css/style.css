@@ -1,0 +1,68 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+
+#border{
+	border:1px #ccc solid;
+}
+
+/*canvas*/
+#canvas{
+	margin-left:20%;
+	background-image:url(../image/map.png);
+	float:left;
+}
+
+/*商店*/
+#shop li img{
+	cursor:pointer;
+}
+
+/*提示文本*/
+#bTitle{
+	width:100px;
+	padding:10px;
+	background-color:#007eaa;
+	color:#fff;
+	border-radius:100px;
+}
+#life{
+	color:red;
+}
+#money{
+	color:red;
+}
+
+/*Go*/
+#go{
+	width:60px;
+	height:60px;
+}
+#go span{
+	color:red;
+}
+
+/*防御塔*/
+#bChange{
+	width:666px;
+	height:110px;
+	margin-left:20%;
+	border:1px #ccc solid;
+}
+#bChange li{
+	text-align:center;
+	border:1px #ccc solid;
+	border-radius:100px;
+	background-color:#007eaa;
+	color:white;
+	float:left;
+	width:220px;
+	height:110px;
+}
